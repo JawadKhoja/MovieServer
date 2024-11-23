@@ -6,7 +6,7 @@ public class MoviesClient {
     public static void main(String[] args) {
         try {
             // Connect to the Server
-            MovieInterface movieService = (MovieInterface) Naming.lookup("rmi://localhost:1099/MovieInformation");
+            MovieInterface movieService = (MovieInterface) Naming.lookup("rmi://localhost:1098/MovieInformation");
             // User input from console
             Scanner scanner = new Scanner(System.in);
             // Client Connected to the Server
